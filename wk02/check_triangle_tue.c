@@ -1,4 +1,10 @@
 // Requests and reads in the angles of a triangle and prints out if it is valid
+//
+// By the students of tue17-sitar
+//
+// Written on 2017-07-31
+//
+// Tutor: Helena (tue17-sitar)
 
 #include<stdio.h>
 
@@ -10,9 +16,7 @@ int main(void){
     
     printf("Enter angles of a triangle, space separted: ");
 
-    printf("%lf %lf %lf\n", a1, a2, a3);
-    scanf("%lf %lf %lf", &a1, &a2, &a3);
-    printf("%lf %lf %lf\n", a1, a2, a3);
+    scanf("%lf %lf %lf", &a1, &a2, &a3); // remember the "&"s
     
     if( a1 > 0 && a2 > 0 && a3 > 0 ){
     

@@ -3,13 +3,21 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Teaching</title>
+		<title>COMP1511 18s2 wk01</title>
+
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 			crossorigin="anonymous">
     	<!-- Custom styles for this template -->
     	<link href="album.css" rel="stylesheet">
+
+    	<!-- Syntax higlighting -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
+
+
 	</head>
 
 	<body>
@@ -26,10 +34,145 @@
 
 			<div class="jumbotron text-center">
 				<div class="container">
-					<h1 class="jumbotron-heading">Week 2</h1>
-					<p class="lead text-muted">
-                  hjggjhg
-					</p>
+					<h1 class="jumbotron-heading">Week 1</h1>
+				
+               
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">check_triangle.c</strong> as written by tue17-sitar
+                      <a href="check_triangle_tue.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Requests and reads in the angles of a triangle and prints out if it is valid
+//
+// By the students of tue17-sitar
+//
+// Written on 2017-07-31
+//
+// Tutor: Helena (tue17-sitar)
+
+#include&gt;stdio.h&lt;
+
+int main(void){
+
+    double angle_1;
+    double angle_2;
+    double angle_3;
+    
+    printf("Enter angles of a triangle, space separted: ");
+
+    scanf("%lf %lf %lf", &amp;angle_1, &amp;angle_2, &amp;angle_3); // remember the "&amp;"s
+    
+    if( angle_1 &gt; 0 &amp;&amp; angle_2 &gt; 0 &amp;&amp; angle_3 &gt; 0 ){
+    
+        if( (angle_1 + angle_2 + angle_3) == 180 ){
+            printf("Triangle is valid.\n");
+        } else {
+            printf("Triangle is invalid.\n");
+        }
+        
+    } else {
+        printf("Invalid Input, angles should not be &lt;= 0\n");
+    }
+ 
+   return 0;
+}
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">check_triangle.c</strong> as written by fri11-oboe
+                      <a href="check_triangle_fri.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Requests and reads in the angles of a triangle
+// and prints out if it is valid
+//
+// By the students of fri11-oboe
+//
+// Written on 2017-09-03
+//
+// Tutor: Helena (fri11-oboe)
+
+#include&lt;stdio.h&gt;
+
+int main(void){
+
+    int a = 0; 
+      // we always initialise variables so that we're never dealing with junk
+    int b = 0;
+    int c = 0;
+    
+    printf("Enter 3 angles, comma separated: ");
+    scanf("%d,%d,%d", &amp;a, &amp;b, &amp;c);
+    
+    int angle_sum = a + b + c; // SUGGESTION: we could make this a function
+    
+    if( a &lt;= 0 || b &lt;= 0 || c &lt;= 0 ){
+        printf("ERROR: some angle &lt;=0 :(\n");
+    } else {
+        
+         if( angle_sum == 180 ){
+            printf("Triangle is Valid\n");
+        } else {
+            printf("Triangle is Invalid\n");
+        }
+    }
+
+   return 0;
+}
+               </div></code></pre>
+               
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">fahrenheit_to_celsius.c</strong>
+                      <a href="fahrenheit_to_celsius.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Reads in a temperature in fahrenheit and converts to celcius
+//
+// Written by: Helena Kertesz
+//
+// Date: 2018/07/31
+//
+// Tutor: Helena (tue17-sitar, fri11-oboe)
+
+#include&lt;stdio.h&gt;
+
+int main(void){
+
+   double fahrenheit = 0;
+
+   scanf("%lf", &amp;fahrenheit);
+
+   // which of these will work? 
+   double celsius_1 = ( fahrenheit - 32 ) * ( 5 / 9 );
+   double celsius_1 = ( fahrenheit - 32 ) *  5 / 9 ;
+   double celsius_1 = ( fahrenheit - 32.0 ) * ( 5.0 / 9.0 ); 
+
+   printf("%.2lf Fahrenheit is %lf Celcius\n", fahrenheit, celsius);
+
+   return 0;
+}a
+
+// 1) since ( 5 / 9 ) is an integer divided by an integer, the result is an integer
+//    this will trancate to 0 and be incorrect;
+// 2) Each calculation is a double and an integer. This "raises" the integer to a double
+//    so the result is a double
+// 3) we only have doubles here
+               </div></code></pre>
 				</div>
 			</div>
 
@@ -41,8 +184,6 @@
        		 <p class="float-right">
           		<a href="#">Back to top</a>
         		</p>
-        	<!--p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        	<p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</pi-->
       	</div>
     	</footer>
 
