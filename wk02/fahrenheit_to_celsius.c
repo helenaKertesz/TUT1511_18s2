@@ -16,10 +16,12 @@ int main(void){
 
    // which of these will work? 
    double celsius_1 = ( fahrenheit - 32 ) * ( 5 / 9 );
-   double celsius_1 = ( fahrenheit - 32 ) *  5 / 9 ;
-   double celsius_1 = ( fahrenheit - 32.0 ) * ( 5.0 / 9.0 ); 
+   double celsius_2 = ( fahrenheit - 32 ) *  5 / 9 ;
+   double celsius_3 = ( fahrenheit - 32.0 ) * ( 5.0 / 9.0 ); 
 
-   printf("%.2lf Fahrenheit is %lf Celcius\n", fahrenheit, celsius);
+   printf("%.2lf Fahrenheit is %lf Celcius\n", fahrenheit, celsius_1);
+   printf("%.2lf Fahrenheit is %lf Celcius\n", fahrenheit, celsius_2);
+   printf("%.2lf Fahrenheit is %lf Celcius\n", fahrenheit, celsius_3);
 
    return 0;
 }
