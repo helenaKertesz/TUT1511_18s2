@@ -4,6 +4,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Teaching</title>
+
+      <!-- import jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -12,17 +20,21 @@
     	<link href="album.css" rel="stylesheet">
 
     	<!-- Syntax higlighting -->
-      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
-    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
 
-
-		<!-- import jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	</head>
 
 	<body>
+      <!-- Get the files I need -->
+<script>
+$.get('hello_world.c', function(data) {
+	$('.hello_world').prepend('<code>'+ data + '</code>');
+   $(document).html('<code>'+ data + '</code>');
+}, 'text');
+</script>
 
 
       <div class="navbar navbar-dark bg-dark box-shadow">
@@ -42,14 +54,8 @@
                   hello_world.c
 					</p>
 
-<script>
-$.get('hello_world.c', function(data) {
-	$('pre').prepend('<code>'+ data + '</code>');
-}, 'text');
-</script>
 
-               <pre style="text-align: left">
-               </pre>
+               <pre style="text-align: left" class="hello_world"></pre>
 
 
 
@@ -67,7 +73,6 @@ $.get('hello_world.c', function(data) {
       	</div>
     	</footer>
 
-      <script>hljs.initHighlightingOnLoad()</script>  
 	</body>
 
 </html>
