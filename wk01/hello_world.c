@@ -2,7 +2,7 @@
 // Date created: January 2018
 // A very simple C program
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int main(void) {
 
