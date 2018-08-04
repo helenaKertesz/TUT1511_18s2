@@ -3,14 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Teaching</title>
-
-      <!-- import jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-
-
+		<title>COMP1511 18s2 wk01</title>
 
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -22,19 +15,12 @@
     	<!-- Syntax higlighting -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
 
 
 	</head>
 
 	<body>
-      <!-- Get the files I need -->
-<script>
-$.get('hello_world.c', function(data) {
-	$('.hello_world').prepend('<code>'+ data + '</code>');
-   $(document).html('<code>'+ data + '</code>');
-}, 'text');
-</script>
-
 
       <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
@@ -49,15 +35,31 @@ $.get('hello_world.c', function(data) {
 			<div class="jumbotron text-center">
 				<div class="container">
 					<h1 class="jumbotron-heading">Week 1</h1>
-					<p class="lead text-muted">
-                  hello_world.c
-					</p>
+				
+               
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <p class="navbar-brand">hello_world.c</p>
+                      <a href="hello_world.c" download>
+                        <p class="navbar-brand">download</p>
+                      </a>
+                  </div>
+               </div>
 
+               <pre style="text-align: left"><code>
+// Author: Andrew Taylor (andrewt@unsw.edu.au)
+// Date created: January 2018
+// A very simple C program
 
-               <pre style="text-align: left" class="hello_world"></pre>
+#include &lt;stdio.h&gt;
 
+int main(void) {
 
+    printf("I love COMP1511!\n");
 
+    return 0;
+}
+               </code></pre>
 				</div>
 			</div>
 
@@ -72,7 +74,6 @@ $.get('hello_world.c', function(data) {
       	</div>
     	</footer>
 
-      <script>hljs.initHighlightingOnLoad()</script>  
 	</body>
 
 </html>
