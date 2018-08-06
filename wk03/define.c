@@ -18,24 +18,3 @@ int main(void) {
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// TOTAL -> FIRST_NUMBER + SECOND_NUMBER -> 10 + 20
-// AVERAGE -> TOTAL / 2 -> 10 + 20 / 2 -> 20
