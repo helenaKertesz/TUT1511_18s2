@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="en">	<head>
+		<meta charset="utf-8">
+		<title>COMP1511 18s2 wk01</title>
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous">
+    	<!-- Custom styles for this template -->
+    	<link href="album.css" rel="stylesheet">
+
+    	<!-- Syntax higlighting -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
+
+
+	</head>
+  <body>      <header>
+         <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+               <a href="#" class="navbar-brand d-flex align-items-center">
+                  <strong>18s2</strong>
+               </a>
+            </div>
+         </div>
+      </header>
+<main role="main"><div class="jumbotron text-center"><div class="container"><h1 class="jumbotron-heading">Week 3</h1>               <div class="container text-left bg-light">
+                  <h3>Functions</h3>
+<p>
+The layout of a function is:
+<pre><code class="nohighlight">&lt;return type&gt; &lt;name&gt; (&lt;arguments&gt;){
+   // some stuff
+   return &lt;return value&gt;
+}
+</pre></code>
+
+When a function is called you can think of a function call as being
+replaced by what the function returns
+</p><p>
+ie)
+<code class="nohighlight">int max = max(a, b)</code>
+is the same as
+<code class="nohighlight">int max = &lt;return value of max(a, b)&gt;</code>
+</p>
+
+<p>
+A function always needs to be <strong>declared</strong> before it is 
+called. This can be done by writing the function before the function it
+is called in, but more often we put a <strong>function prototype</strong>
+at the start of the file, like:
+<code>&lt;return type&gt; &lt;name&gt; (&lt;arguments&gt;);</code>
+</p>
+
+               </div>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">find_max.c</strong>
+                      <a href="find_max.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Print out the maxiumum on two read in nubers.
+//
+// By the students of tue17-sitar
+//        students of fri11-oboe
+//
+// Written on 2017-08-07
+// Written on 2017-08-10
+//
+// Tutor: Helena (tue17-sitar, fri11-oboe)
+
+#include &lt;stdio.h&gt;
+
+int main(void) {
+   int num1 = 0;
+   int num2 = 0;
+   printf("Enter 2 numbers, space separated: ");
+   scanf("%d %d", &amp;num1, &amp;num2);
+
+   // TODO write function to find max
+   int max = 0;
+
+   printf("%d is the maximum of %d and %d", max, num1, num2);
+
+	return 0;
+}
+
+// RULES OF THUMB FOR FUNCTIONS:
+// - A function should have ONE purpose
+// - A function should easily fit on a screen
+// - Each function should have a comment before it saying what it does
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">arithmetic.c</strong>
+                      <a href="arithmetic.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Demonstrates the consequences of integer truncation
+// In C the order of operations is ( * / %) then (+ -)
+//
+// By Helena Kertesz
+//
+// Written on 2017-08-06
+
+int main(void){
+
+   // what will each of these expressions be?
+	printf("1 / 2 * 500 = %d"            , 1 / 2 * 500);
+	printf("1 / 2.0 * 500 =%d"           , 1 / 2.0 * 500);
+	printf("(17 / 5) * 5 + (17 % 5) = %d", (17 / 5) * 5 + (17 % 5));
+	printf("(12 - 17) % 6 - 4) = %d"     , (12 - 17) % 6 - 4);
+
+	return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">define.c</strong>
+                      <a href="define.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Demonstrates #defines in C
+//
+// By Helena Kertesz
+// Copied from a COMP1511 example
+//
+// Written on 2017-08-06
+
+#include &lt;stdio.h&gt;
+
+#define FIRST_NUMBER     10
+#define SECOND_NUMBER    20
+#define TOTAL   FIRST_NUMBER + SECOND_NUMBER
+#define AVERAGE TOTAL / 2
+
+int main(void) {
+	printf("The average of %d and %d is %d\n",
+			FIRST_NUMBER, SECOND_NUMBER, AVERAGE);
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TOTAL -&gt; FIRST_NUMBER + SECOND_NUMBER -&gt; 10 + 20
+// AVERAGE -&gt; TOTAL / 2 -&gt; 10 + 20 / 2 -&gt; 20
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">square.c</strong>
+                      <a href="square.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Reads in a size from the user and
+// prints out a square of *&apos;s (and variations)
+//
+// By the students of tue17-sitar
+//        students of fri11-oboe
+//
+// Written on 2017-08-07
+// Written on 2017-08-10
+//
+// Tutor: Helena (tue17-sitar, fri11-oboe)
+
+int main(void){
+   // read in user input
+
+   // print square
+
+   // FIRST: print out a row of *&apos;s
+
+   return 0;
+}
+
+               </div></code></pre>
+</div></div></main>    	<footer class="text-muted">
+      	<div class="container">
+       		 <p class="float-right">
+          		<a href="#">Back to top</a>
+        		</p>
+      	</div>
+    	</footer>
+  </body></html>

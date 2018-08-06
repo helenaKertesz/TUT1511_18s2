@@ -1,0 +1,25 @@
+<h3>Functions</h3>
+<p>
+The layout of a function is:
+<pre><code class="nohighlight">&lt;return type&gt; &lt;name&gt; (&lt;arguments&gt;){
+   // some stuff
+   return &lt;return value&gt;
+}
+</pre></code>
+
+When a function is called you can think of a function call as being
+replaced by what the function returns
+</p><p>
+ie)
+<code class="nohighlight">int max = max(a, b)</code>
+is the same as
+<code class="nohighlight">int max = &lt;return value of max(a, b)&gt;</code>
+</p>
+
+<p>
+A function always needs to be <strong>declared</strong> before it is 
+called. This can be done by writing the function before the function it
+is called in, but more often we put a <strong>function prototype</strong>
+at the start of the file, like:
+<code>&lt;return type&gt; &lt;name&gt; (&lt;arguments&gt;);</code>
+</p>
