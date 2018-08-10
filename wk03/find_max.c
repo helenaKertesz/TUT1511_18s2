@@ -10,6 +10,8 @@
 
 #include <stdio.h>
 
+int maxNum( int a, int b ); // function prototype
+
 int main(void) {
    int num1 = 0;
    int num2 = 0;
@@ -17,12 +19,25 @@ int main(void) {
    scanf("%d %d", &num1, &num2);
 
    // TODO write function to find max
-   int max = 0;
+   int max = maxNum(num1, num2);
 
    printf("%d is the maximum of %d and %d", max, num1, num2);
 
 	return 0;
 }
+
+int maxNum( int a, int b ){
+
+    int max = 0 ;
+    if( a > b ){
+        max = a;
+    } else {
+        max = b;
+    }
+    
+    return max;
+}
+
 
 // RULES OF THUMB FOR FUNCTIONS:
 // - A function should have ONE purpose

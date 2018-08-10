@@ -1,0 +1,17 @@
+<h4>#defines</h4>
+<p>
+A <code>#define</code> is used to define constants, rather than having "magic numbers" in the code. For example:
+<code>#define NUM_CATS 4</code> then every time the compiler sees <code>NUM_CATS</code> it will replace it with <code>4</code
+</p>
+<p>
+In the example below we run into a problem. This can be seen by looking at what <code>AVERAGE</code> gets evaluated as by replacing it bit by bit:
+<pre><code class="nohighlight">AVERAGE
+TOTAL / 2
+FIRST_NUMBER + SECOND_NUMBER / 2
+10 + 20 / 2 
+This mathematically equals 20!
+</pre></code>
+
+We can do <code>#define TOTAL (FIRST_NUMBER + SECOND_NUMBER)</code> to prevent this
+
+</p>

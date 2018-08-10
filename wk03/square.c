@@ -9,12 +9,42 @@
 //
 // Tutor: Helena (tue17-sitar, fri11-oboe)
 
+#include<stdio.h>
+
 int main(void){
    // read in user input
+   int num = 0;
+   printf("Please enter square size: ");
+   scanf("%d", &num);
 
    // print square
 
-   // FIRST: print out a row of *'s
+    int row = 0;
+    int col = 0;
+    while( row < num ){
+
+        // print one line of *'s
+        col = 0;
+        while( col < num ){
+                if( .j. ){
+                    printf("*");
+                } else {
+                    printf(" ");
+                }
+                col = col + 1;
+        }
+        printf("\n");
+        row = row + 1;
+   
+   }
+   
+   // 
 
    return 0;
 }
+
+
+
+
+
+

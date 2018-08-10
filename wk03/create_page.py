@@ -12,11 +12,13 @@ head = open('../components/head.html', 'r');
 header = open('../components/header.html', 'r');
 footer = open('../components/footer.html', 'r');
 
+# TODO go through all folders
+
 page = open('index.html', 'w')
 
 page.write('<!DOCTYPE html>')
 page.write('<html lang="en">')
-page.write( head.read() )
+page.write( head.read() ) # TODO change title
 
 page.write('  <body>')
 page.write( header.read() )
@@ -39,7 +41,6 @@ for f in os.listdir('.'):
          info = open( info, 'r')
          file_info = open('../components/file_info.html', 'r')
          page.write( file_info.read().replace('copy_info', info.read()))
-         # TODO
 
       # print title bar for file
       file_bar = open('../components/file_bar.html', 'r')

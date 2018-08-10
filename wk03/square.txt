@@ -1,0 +1,36 @@
+<h4>Printing a 2D field</h4>
+<p>
+When printing out something in 2D, most of the time you should be able
+to use two nested <code>while</code> loops with an <code>if</code> inside.
+This is generally considered easy to read
+
+<pre><code>
+int row = 0;
+int col = 0;
+
+// prints out the row (inner while) row_num times
+while( row < row_num ){
+   col = 0;
+
+   // prints out one row by calling a printf col_num times
+   while( col < col_num ){
+      if( /* something using col and row*/ ){
+         printf("*");
+      } else {
+         printf(" ");
+      }
+      col = col + 1;
+   }   
+   printf("\n");
+
+   row = row + 1;
+}
+</pre></code>
+
+Simply change what is inside the <code>if</code> to change what shape is printed.
+If this statement is too long, consider putting it in a function.
+
+Note this doesn't work as well if you are not printing out something made of
+only 2 or 3 characters.
+
+</p>

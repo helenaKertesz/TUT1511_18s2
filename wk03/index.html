@@ -76,6 +76,8 @@ at the start of the file, like:
 
 #include &lt;stdio.h&gt;
 
+int maxNum( int a, int b ); // function prototype
+
 int main(void) {
    int num1 = 0;
    int num2 = 0;
@@ -83,12 +85,25 @@ int main(void) {
    scanf("%d %d", &amp;num1, &amp;num2);
 
    // TODO write function to find max
-   int max = 0;
+   int max = maxNum(num1, num2);
 
    printf("%d is the maximum of %d and %d", max, num1, num2);
 
 	return 0;
 }
+
+int maxNum( int a, int b ){
+
+    int max = 0 ;
+    if( a &gt; b ){
+        max = a;
+    } else {
+        max = b;
+    }
+    
+    return max;
+}
+
 
 // RULES OF THUMB FOR FUNCTIONS:
 // - A function should have ONE purpose
@@ -108,24 +123,46 @@ int main(void) {
 
                <pre style="text-align: left; font-size: 15px"><code><div class="container">
 // Demonstrates the consequences of integer truncation
-// In C the order of operations is ( * / %) then (+ -)
+// In C the order of operations is ( * / % ) then (+ -)
 //
 // By Helena Kertesz
 //
 // Written on 2017-08-06
 
+#include&lt;stdio.h&gt;
+
 int main(void){
 
    // what will each of these expressions be?
-	printf("1 / 2 * 500 = %d"            , 1 / 2 * 500);
-	printf("1 / 2.0 * 500 =%d"           , 1 / 2.0 * 500);
-	printf("(17 / 5) * 5 + (17 % 5) = %d", (17 / 5) * 5 + (17 % 5));
-	printf("(12 - 17) % 6 - 4) = %d"     , (12 - 17) % 6 - 4);
+	printf("1 / 2 * 500 = %d\n"             , 1 / 2 * 500            );
+	printf("1 / 2.0 * 500 = %f\n"           , 1 / 2.0 * 500          );
+	printf("(17 / 5) * 5 + (17 %% 5) = %d\n", (17 / 5) * 5 + (17 % 5));
+	printf("(12 - 17) %% 6 - 4) = %d\n"     , (12 - 17) % 6 - 4      );
 
 	return 0;
 }
 
                </div></code></pre>
+               <div class="container text-left bg-light">
+                  <h4>#defines</h4>
+<p>
+A <code>#define</code> is used to define constants, rather than having "magic numbers" in the code. For example:
+<code>#define NUM_CATS 4</code> then every time the compiler sees <code>NUM_CATS</code> it will replace it with <code>4</code
+</p>
+<p>
+In the example below we run into a problem. This can be seen by looking at what <code>AVERAGE</code> gets evaluated as by replacing it bit by bit:
+<pre><code class="nohighlight">AVERAGE
+TOTAL / 2
+FIRST_NUMBER + SECOND_NUMBER / 2
+10 + 20 / 2 
+This mathematically equals 20!
+</pre></code>
+
+We can do <code>#define TOTAL (FIRST_NUMBER + SECOND_NUMBER)</code> to prevent this
+
+</p>
+
+               </div>
 
                <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
                   <div class="container d-flex justify-content-between">
@@ -159,6 +196,45 @@ int main(void) {
 }
 
                </div></code></pre>
+               <div class="container text-left bg-light">
+                  <h4>Printing a 2D field</h4>
+<p>
+When printing out something in 2D, most of the time you should be able
+to use two nested <code>while</code> loops with an <code>if</code> inside.
+This is generally considered easy to read
+
+<pre><code>
+int row = 0;
+int col = 0;
+
+// prints out the row (inner while) row_num times
+while( row < row_num ){
+   col = 0;
+
+   // prints out one row by calling a printf col_num times
+   while( col < col_num ){
+      if( /* something using col and row*/ ){
+         printf("*");
+      } else {
+         printf(" ");
+      }
+      col = col + 1;
+   }   
+   printf("\n");
+
+   row = row + 1;
+}
+</pre></code>
+
+Simply change what is inside the <code>if</code> to change what shape is printed.
+If this statement is too long, consider putting it in a function.
+
+Note this doesn't work as well if you are not printing out something made of
+only 2 or 3 characters.
+
+</p>
+
+               </div>
 
                <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
                   <div class="container d-flex justify-content-between">
@@ -181,15 +257,45 @@ int main(void) {
 //
 // Tutor: Helena (tue17-sitar, fri11-oboe)
 
+#include&lt;stdio.h&gt;
+
 int main(void){
    // read in user input
+   int num = 0;
+   printf("Please enter square size: ");
+   scanf("%d", &amp;num);
 
    // print square
 
-   // FIRST: print out a row of *&apos;s
+    int row = 0;
+    int col = 0;
+    while( row &lt; num ){
+
+        // print one line of *&apos;s
+        col = 0;
+        while( col &lt; num ){
+                if( .j. ){
+                    printf("*");
+                } else {
+                    printf(" ");
+                }
+                col = col + 1;
+        }
+        printf("\n");
+        row = row + 1;
+   
+   }
+   
+   // 
 
    return 0;
 }
+
+
+
+
+
+
 
                </div></code></pre>
 </div></div></main>    	<footer class="text-muted">
