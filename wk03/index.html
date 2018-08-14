@@ -84,15 +84,15 @@ int main(void) {
    printf("Enter 2 numbers, space separated: ");
    scanf("%d %d", &amp;num1, &amp;num2);
 
-   // TODO write function to find max
-   int max = maxNum(num1, num2);
+   int max = maxNum(num1, num2); // function call
 
    printf("%d is the maximum of %d and %d", max, num1, num2);
 
 	return 0;
 }
 
-int maxNum( int a, int b ){
+// Takes 2 ints and returns the larger of the two
+int maxNum( int a, int b ){ // function definition
 
     int max = 0 ;
     if( a &gt; b ){
@@ -101,7 +101,8 @@ int maxNum( int a, int b ){
         max = b;
     }
     
-    return max;
+    return max; // the style guide encorages you to have a single return
+                // (other than in the case of errors)
 }
 
 
@@ -109,38 +110,6 @@ int maxNum( int a, int b ){
 // - A function should have ONE purpose
 // - A function should easily fit on a screen
 // - Each function should have a comment before it saying what it does
-
-               </div></code></pre>
-
-               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
-                  <div class="container d-flex justify-content-between">
-                     <strong class="navbar-brand d-flex">arithmetic.c</strong>
-                      <a href="arithmetic.c" download>
-                        <strong class="navbar-brand d-flex">download</strong>
-                      </a>
-                  </div>
-               </div>
-
-               <pre style="text-align: left; font-size: 15px"><code><div class="container">
-// Demonstrates the consequences of integer truncation
-// In C the order of operations is ( * / % ) then (+ -)
-//
-// By Helena Kertesz
-//
-// Written on 2017-08-06
-
-#include&lt;stdio.h&gt;
-
-int main(void){
-
-   // what will each of these expressions be?
-	printf("1 / 2 * 500 = %d\n"             , 1 / 2 * 500            );
-	printf("1 / 2.0 * 500 = %f\n"           , 1 / 2.0 * 500          );
-	printf("(17 / 5) * 5 + (17 %% 5) = %d\n", (17 / 5) * 5 + (17 % 5));
-	printf("(12 - 17) %% 6 - 4) = %d\n"     , (12 - 17) % 6 - 4      );
-
-	return 0;
-}
 
                </div></code></pre>
                <div class="container text-left bg-light">
@@ -194,6 +163,15 @@ int main(void) {
 
 	return 0;
 }
+
+// This will print "the average of 10 and 20 is 20", why?
+// With a #define, the define is replaced by what it represents on compile time
+// Lat&apos;s look at what AVERAGE becomes:
+// AVERAGE
+// TOTAL / 2
+// FIRST_NUMBER + SECOND_NUMBER / 2
+// 10 + 20 / 2
+// Since there are no brakets this evealuates to 20!
 
                </div></code></pre>
                <div class="container text-left bg-light">
@@ -274,7 +252,7 @@ int main(void){
         // print one line of *&apos;s
         col = 0;
         while( col &lt; num ){
-                if( .j. ){
+                if( col &gt;= row ){ // modifying this if can make pretty much any shape
                     printf("*");
                 } else {
                     printf(" ");
@@ -285,17 +263,8 @@ int main(void){
         row = row + 1;
    
    }
-   
-   // 
-
    return 0;
 }
-
-
-
-
-
-
 
                </div></code></pre>
 </div></div></main>    	<footer class="text-muted">

@@ -18,15 +18,15 @@ int main(void) {
    printf("Enter 2 numbers, space separated: ");
    scanf("%d %d", &num1, &num2);
 
-   // TODO write function to find max
-   int max = maxNum(num1, num2);
+   int max = maxNum(num1, num2); // function call
 
    printf("%d is the maximum of %d and %d", max, num1, num2);
 
 	return 0;
 }
 
-int maxNum( int a, int b ){
+// Takes 2 ints and returns the larger of the two
+int maxNum( int a, int b ){ // function definition
 
     int max = 0 ;
     if( a > b ){
@@ -35,7 +35,8 @@ int maxNum( int a, int b ){
         max = b;
     }
     
-    return max;
+    return max; // the style guide encorages you to have a single return
+                // (other than in the case of errors)
 }
 
 

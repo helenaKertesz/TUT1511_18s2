@@ -26,7 +26,7 @@ int main(void){
         // print one line of *'s
         col = 0;
         while( col < num ){
-                if( .j. ){
+                if( col >= row ){ // modifying this if can make pretty much any shape
                     printf("*");
                 } else {
                     printf(" ");
@@ -37,14 +37,5 @@ int main(void){
         row = row + 1;
    
    }
-   
-   // 
-
    return 0;
 }
-
-
-
-
-
-

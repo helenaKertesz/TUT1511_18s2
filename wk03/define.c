@@ -18,3 +18,12 @@ int main(void) {
 
 	return 0;
 }
+
+// This will print "the average of 10 and 20 is 20", why?
+// With a #define, the define is replaced by what it represents on compile time
+// Lat's look at what AVERAGE becomes:
+// AVERAGE
+// TOTAL / 2
+// FIRST_NUMBER + SECOND_NUMBER / 2
+// 10 + 20 / 2
+// Since there are no brakets this evealuates to 20!
