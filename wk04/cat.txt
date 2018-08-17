@@ -1,0 +1,9 @@
+<h3>Structs</h3>
+Structs are like a custom data-type, that contains many bits of information. They can contain multiple datatypes, and each element is accessed by name (rather than by index as with an array)
+
+<h3>.h files</h3>
+We often end up with a lot of struct definitions and function prototypes. To stop this cluttering up the start of our file, we can put this is a .h file, which we then <code>#inlclude</code> at the start of any file where we need those definitions.
+
+<h3>Mutiple .c files</h3>
+In this case we have put the <code>main</code> function in one file and the implmentation of the functions that use <code>struct _cat</code> in another. Again, this is to keep things tidy, and means we can easily switch between which main functions we are using, if you have multiple programs that use out cat code.
+

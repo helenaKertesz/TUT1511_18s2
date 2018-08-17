@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="en">	<head>
+		<meta charset="utf-8">
+		<title>Helena's COMP1511 tuts</title>
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous">
+    	<!-- Custom styles for this template -->
+    	<link href="album.css" rel="stylesheet">
+
+    	<!-- Syntax higlighting -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
+
+
+	</head>
+  <body>      <header>
+         <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+               <a href="#" class="navbar-brand d-flex align-items-center">
+                  <strong>18s2</strong>
+               </a>
+            </div>
+         </div>
+      </header>
+<main role="main"><div class="jumbotron text-center"><div class="container"><h1 class="jumbotron-heading">Week 3</h1>
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">array.c</strong>
+                      <a href="array.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Playing with Arrays
+// Written by Helena Kertesz
+// 2018/08/13 (YYYY/MM/DD)
+
+# define SIZE 20
+
+int main(void){
+
+   // a few ways of making arrays
+   int array1[SIZE] = {1, 2, 3, 4, 5} // I can initialise each element in an array using a list in curly braces
+                                      // note the use of the #define for the size of the array
+
+   int array2[SIZE] = {0};            // if I just have a zero in the curly braces it will set all the values to zero
+
+   // what&apos;s wrong here
+   int numbers[SIZE] = {0};
+   int x = numbers[20];     // since indexing starts from 0, this is actually one past the end of the array
+
+   // let&apos;s take it to another dimension!!
+   int more_numbers[SIZE][SIZE] // this is a 2D array, which exists as an array of arrays.
+   
+   return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">array_functions.c</strong>
+                      <a href="array_functions.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Contains some functions that use arrays
+//  - dot product
+//  - find if an array is increasing
+// Written by tue17sitar &amp; fri11oboe
+// 2018/08/14 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+
+#define VECTOR_LENGTH 5
+
+int dot_product( int vector1[VECTOR_LENGTH], int vector2[VECTOR_LENGTH] );
+
+int main(void){
+
+   // one dot product test
+   // TODO you should always have more than one test!
+   int array1[VECTOR_LENGTH] = {1, 3, 1, 3, 2};
+   int array2[VECTOR_LENGTH] = {2, 1, 2, 1, 2};
+   int product = dot_product( array1, array2 );
+   if( product == 14 ){
+      printf("dot_product PASSED!\n");
+   } else {
+      printf("dot_product FAILED!\n");
+   }
+
+   return 0;
+}
+
+
+
+// TODO remember to have a comment decribing the function!
+// This function calculates the dot product of two vectors (passed in as arrays)
+int dot_product( int vector1[VECTOR_LENGTH], int vector2[VECTOR_LENGTH] ){
+    int i = 0;
+    int sum = 0;
+    while (i &lt; VECTOR_LENGTH) {          // we use while loops to loop through arrays
+        sum += vector1[i] * vector2[i];
+        i++;
+    }
+    return sum;
+}
+
+               </div></code></pre>
+               <div class="container text-left bg-light">
+                  <h3>Structs</h3>
+Structs are like a custom data-type, that contains many bits of information. They can contain multiple datatypes, and each element is accessed by name (rather than by index as with an array)
+
+<h3>.h files</h3>
+We often end up with a lot of struct definitions and function prototypes. To stop this cluttering up the start of our file, we can put this is a .h file, which we then <code>#inlclude</code> at the start of any file where we need those definitions.
+
+<h3>Mutiple .c files</h3>
+In this case we have put the <code>main</code> function in one file and the implmentation of the functions that use <code>struct _cat</code> in another. Again, this is to keep things tidy, and means we can easily switch between which main functions we are using, if you have multiple programs that use out cat code.
+
+
+               </div>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">cat.c</strong>
+                      <a href="cat.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Playing with Structs
+// This file contains function implementation
+// for the cat struct
+// Written by Helena Kertesz
+// 2018/08/13 (YYYY/MM/DD)
+
+#include "cat.h"
+
+
+// takes in a cat struct and returns the age of that cat in human years
+int cat_to_human_age( cat myCat){
+
+    return myCat.age * 7; // one cat year is 7 human years
+    
+}
+
+// We could have a lot more functions here
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">cat.h</strong>
+                      <a href="cat.h" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Playing with Structs
+// .h file contain struct and function definietion
+// for the cat struct
+//
+// note this only contains struct declarations
+// and functions prototypes, no runnable code
+//
+// Written by Helena Kertesz
+// 2018/08/13 (YYYY/MM/DD)
+
+#ifndef CAT
+#define CAT
+
+typedef struct _cat {
+    double weight; // weight
+    int age;       // age
+    int numPats;   // num pats
+} cat ; // the typedef allows us to refer to this type as just "cat"
+
+
+int cat_to_human_age( cat myCat );
+
+#endif
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">cat_main.c</strong>
+                      <a href="cat_main.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Playing with Structs
+// This file contains the main function
+// for playing with the cat struct
+// Written by Helena Kertesz
+// 2018/08/13 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+#include "cat.h"
+
+
+int main(void){
+
+   cat mittens; // this is a variable with name "mittens" and type "cat"
+                // (our custom struct type)
+   
+   mittens.age = 12;
+   mittens.weight = 2.3;
+   mittens.numPats = 3;
+   
+   printf("Mittens is %d in human years\n", cat_to_human_age(mittens.age));
+   
+
+   return 0;
+}
+
+               </div></code></pre>
+</div></div></main>    	<footer class="text-muted">
+      	<div class="container">
+       		 <p class="float-right">
+          		<a href="#">Back to top</a>
+        		</p>
+      	</div>
+    	</footer>
+  </body></html>
