@@ -10,6 +10,7 @@ int main(void){
     putchar(c);         // prints out the value stored in c
 
     // I can do this in a loop!
+    // This simply "echos" what I write
     c = getchar();
     while( c != EOF ){ // EOF is End Of File. Can be given using Ctrl-D
         putchar(c);

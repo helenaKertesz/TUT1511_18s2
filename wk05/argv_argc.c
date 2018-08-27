@@ -13,7 +13,7 @@
 //
 // char* is a pointer to a character
 // in this case it's a pointer to the first character in
-// an array of characters
+// an array of characters (a string)
 int main( int argc, char* argv[] ){
    
 
@@ -25,9 +25,3 @@ int main( int argc, char* argv[] ){
 
     return 0;
 }
-
-
-
-
-
-

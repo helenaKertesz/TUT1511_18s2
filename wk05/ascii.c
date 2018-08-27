@@ -10,6 +10,8 @@ int main(void){
     printf("%d - %c\n", 'a', 'a');
     
     // a char is just a number going from 0 to 255
+    // depending if I print it as a char (%c) or an in (%d)
+    // It will print the number, or the character it represents
     char i = 0;
     while( i < 127 ){
         printf("\t%d -\t %c\n", i, i);

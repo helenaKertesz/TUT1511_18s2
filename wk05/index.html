@@ -1,0 +1,218 @@
+<!DOCTYPE html><html lang="en">	<head>
+		<meta charset="utf-8">
+		<title>Helena's COMP1511 tuts</title>
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous">
+    	<!-- Custom styles for this template -->
+    	<link href="album.css" rel="stylesheet">
+
+    	<!-- Syntax higlighting -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
+
+
+	</head>
+  <body>      <header>
+         <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+               <a href="#" class="navbar-brand d-flex align-items-center">
+                  <strong>18s2</strong>
+               </a>
+            </div>
+         </div>
+      </header>
+<main role="main"><div class="jumbotron text-center"><div class="container"><h1 class="jumbotron-heading">Week 5</h1>
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">argv_argc.c</strong>
+                      <a href="argv_argc.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Program exploring the use of argv and argc
+// Writen by Helena Kertesz
+// 2019/08/21 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+
+// argc - "argument count"
+// the number of arguments given to main
+// (including )
+// argv - "argument vector" (I remember as "value")
+// an arrays of strings
+// a string is an array of chaarcters
+//
+// char* is a pointer to a character
+// in this case it&apos;s a pointer to the first character in
+// an array of characters (a string)
+int main( int argc, char* argv[] ){
+   
+
+    int i = 0;
+    while( i &lt; argc ){
+        printf("argument %d: %s\n", i, argv[i]);
+        i++;
+    }
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">ascii.c</strong>
+                      <a href="ascii.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Progam exploring ascii values of characters
+// Writen by Helena Kertesz
+// 2019/08/21 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+
+int main(void){
+
+    // characters are ecoded to number by ascii
+    printf("%d - %c\n", &apos;a&apos;, &apos;a&apos;);
+    
+    // a char is just a number going from 0 to 255
+    // depending if I print it as a char (%c) or an in (%d)
+    // It will print the number, or the character it represents
+    char i = 0;
+    while( i &lt; 127 ){
+        printf("\t%d -\t %c\n", i, i);
+        i++;
+    }
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">getchar_putchar.c</strong>
+                      <a href="getchar_putchar.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Program exploring getchar and putchar
+// Written by Helena Kertesz
+// 2018/08/21 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+
+int main(void){
+
+    char c = getchar(); // reads one character from input and stores in c
+    putchar(c);         // prints out the value stored in c
+
+    // I can do this in a loop!
+    // This simply "echos" what I write
+    c = getchar();
+    while( c != EOF ){ // EOF is End Of File. Can be given using Ctrl-D
+        putchar(c);
+        c = getchar();
+    }
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">sum_args.c</strong>
+                      <a href="sum_args.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// prints out the sum of all command , line arguments
+// we&apos;re going to assume they are all numbers
+// Writen by tue17-sitar and fri11-oboe
+// 2019/08/21 (YYYY/MM/DD)
+
+#include&lt;stdlib.h&gt;
+#include&lt;stdio.h&gt;
+
+int main(int argc, char* argv[]){
+
+	int sum = 0;
+    // We start at 1 (the second argument)
+    // because the first is the argument to run the program itself
+    int argument = 1;
+    while (argument &lt; argc) {
+       // each argument is a STRING (array of characters)
+       // to interpret this a a number we use atoi()
+       // (ascii to integer)
+       sum = sum + atoi(argv[argument]);
+       argument= argument + 1;
+    }
+    printf("sum of command-line arguments = %d\n", sum);
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">sum_digits.c</strong>
+                      <a href="sum_digits.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// Adds all the digits given by startdard input, ignoring
+// charcters, and prints result
+// Writen by tue17-sitar and fri11-oboe
+// 2019/08/21 (YYYY/MM/DD)
+
+#include&lt;stdio.h&gt;
+
+int main(void){
+
+    char c = getchar();
+    int sum = 0, digits = 0;
+    while (c != EOF) {
+        if (c &gt;= &apos;0&apos; &amp;&amp; c &lt;= &apos;9&apos;) {
+            digits++;   
+            // normalise to the integer 0-9
+            // rather than character &apos;0&apos;-&apos;9&apos;
+            sum += c - &apos;0&apos;; 
+        }
+        c = getchar(); // keep getting characters
+    }
+    printf("sum = %d, count = %d\n", sum, digits);
+    return 0;
+}
+
+               </div></code></pre>
+</div></div></main>    	<footer class="text-muted">
+      	<div class="container">
+       		 <p class="float-right">
+          		<a href="#">Back to top</a>
+        		</p>
+      	</div>
+    	</footer>
+  </body></html>

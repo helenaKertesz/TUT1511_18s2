@@ -9,8 +9,13 @@
 int main(int argc, char* argv[]){
 
 	int sum = 0;
-    int argument = 1;  // TODO why start at 1?
+    // We start at 1 (the second argument)
+    // because the first is the argument to run the program itself
+    int argument = 1;
     while (argument < argc) {
+       // each argument is a STRING (array of characters)
+       // to interpret this a a number we use atoi()
+       // (ascii to integer)
        sum = sum + atoi(argv[argument]);
        argument= argument + 1;
     }
