@@ -1,0 +1,260 @@
+<!DOCTYPE html><html lang="en">	<head>
+		<meta charset="utf-8">
+		<title>Helena's COMP1511 tuts</title>
+
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous">
+    	<!-- Custom styles for this template -->
+    	<link href="album.css" rel="stylesheet">
+
+    	<!-- Syntax higlighting -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/hybrid.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad()</script>  
+
+
+	</head>
+  <body>      <header>
+         <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+               <a href="#" class="navbar-brand d-flex align-items-center">
+                  <strong>18s2</strong>
+               </a>
+            </div>
+         </div>
+      </header>
+<main role="main"><div class="jumbotron text-center"><div class="container"><h1 class="jumbotron-heading">Week 3</h1>
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">begins_with.c</strong>
+                      <a href="begins_with.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include&lt;stdio.h&gt;
+
+#define FALSE 0
+#define TRUE !FALSE
+
+int begins_with( char* string1, char* string2 );
+
+int main(void){
+    
+    if( begins_with("APPLE", "APP" ) == TRUE ){
+        printf("Test 2 PASSED\n");
+    } else {
+        printf("Test 2 FAILED\n");
+    }
+    
+    if( begins_with("APPLE", "RAW") == FALSE ){
+        printf("Test 1 PASSED\n");
+    } else {
+        printf("Test 1 FAILED\n");
+    }
+
+    if( begins_with("APP", "APPLE") == FALSE ){
+        printf("Test 1 PASSED\n");
+    } else {
+        printf("Test 1 FAILED\n");
+    }
+
+    return 0;
+}
+
+int begins_with( char* string1, char* string2 ){
+
+    int begins_with = TRUE;
+
+    int i = 0;
+    while( string1[i] != &apos;\0&apos; &amp;&amp; string2[i] != &apos;\0&apos;){
+        if( string1[i] != string2[i]){
+            begins_with = FALSE;
+        }
+        i++;
+
+        if( string1[i] == &apos;\0&apos;){
+            begins_with = FALSE;
+        }
+    }
+
+    return begins_with;
+
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">fgets.c</strong>
+                      <a href="fgets.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+#define LINE_SIZE 15
+
+int main(void) {
+    // Read input into 
+    char line[LINE_SIZE];
+    //fgets(line, LINE_SIZE, stdin);
+    scanf("%s", line);
+    printf("%s\n", line);
+    printf("size: %ld\n", strlen(line));
+
+    // why is fgets better than scanf?
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">line_length.c</strong>
+                      <a href="line_length.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+// What is wrong with this?
+
+#include &lt;stdio.h&gt;
+
+#define MAX_LINE 4096
+
+int main(void) {
+    char line[MAX_LINE];
+    int  i;
+
+    while (fgets(line, MAX_LINE, stdin) != NULL) {
+        i = MAX_LINE;
+        while (line[i] != &apos;\n&apos;) {
+            i = i - 1;
+        }
+        printf("the line is %d characters long\n", i);
+    }
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">read_from_file.c</strong>
+                      <a href="read_from_file.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include&lt;stdio.h&gt;
+
+int main(){
+
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">reverse.c</strong>
+                      <a href="reverse.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include&lt;stdio.h&gt;
+#include&lt;string.h&gt;
+
+#define LINE_SIZE 15
+
+int main(){
+    
+    char line[LINE_SIZE];
+    printf("Enter a phrase (less that %d characters):\n", LINE_SIZE);
+    fgets(line, LINE_SIZE, stdin );
+
+    // TODO let&apos;s print it backwards!
+
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">strings.c</strong>
+                      <a href="strings.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main(void) {
+    char str[10];
+    str[0] = &apos;H&apos;;
+    str[1] = &apos;i&apos;;
+    printf("%s\n", str);
+    return 0;
+}
+
+               </div></code></pre>
+
+               <div class="navbar navbar-dark bg-dark box-shadow" style="margin-bottom: 0px">
+                  <div class="container d-flex justify-content-between">
+                     <strong class="navbar-brand d-flex">write_to_file.c</strong>
+                      <a href="write_to_file.c" download>
+                        <strong class="navbar-brand d-flex">download</strong>
+                      </a>
+                  </div>
+               </div>
+
+               <pre style="text-align: left; font-size: 15px"><code><div class="container">
+#include&lt;stdio.h&gt;
+
+#define MAX_LINE 4096
+
+int main(){
+    
+    FILE * fp;
+    fp = fopen(/* TODO */);
+    if( fp == NULL ){
+        printf("COULDN&apos;T OPEN FILE\n");
+        return 1;
+    }
+
+    // TODO Get data from user and write to file
+
+    fclose(fp);
+
+    return 0;
+}
+
+               </div></code></pre>
+</div></div></main>    	<footer class="text-muted">
+      	<div class="container">
+       		 <p class="float-right">
+          		<a href="#">Back to top</a>
+        		</p>
+      	</div>
+    	</footer>
+  </body></html>
