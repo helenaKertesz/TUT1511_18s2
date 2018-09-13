@@ -1,0 +1,1000 @@
+18/01/18 9 Pygmy right whale
+01/09/1721 Southern right whale
+16/02/18 4 Striped dolphin
+02/07/17 4 Common dolphin
+19/02/18 4 Blue whale
+21/02/1838 Dwarf sperm whale
+14/06/1729 Southern right whale
+20/06/17 3 Spinner dolphin
+22/07/1734 Indo-Pacific humpbacked dolphin
+20/03/18 7 Long-finned pilot whale
+11/03/1819 Short-finned pilot whale
+24/09/17 5 Southern right whale
+11/02/18 6 Dwarf minke whale
+22/03/1829 Common dolphin
+02/04/1823 Spinner dolphin
+26/04/1819 Orca
+24/12/1714 Pygmy right whale
+18/10/17 6 Spinner dolphin
+21/08/17 3 Striped dolphin
+19/12/1737 Dwarf minke whale
+02/09/1725 Dwarf minke whale
+08/10/1732 Southern right whale
+29/11/1721 Pygmy sperm whale
+04/04/1829 Pygmy sperm whale
+19/04/18 6 Striped dolphin
+04/06/17 4 Striped dolphin
+02/04/18 5 Long-finned pilot whale
+09/06/1721 Humpback whale
+01/04/18 3 Dwarf minke whale
+25/02/18 4 Dwarf sperm whale
+09/12/1735 Dwarf minke whale
+27/06/1725 Fin whale
+22/02/1836 Coastal bottlenose dolphin
+03/09/1726 Dwarf sperm whale
+23/02/18 1 Striped dolphin
+23/06/17 3 Pygmy sperm whale
+08/12/1723 Blue whale
+21/01/1841 Indo-Pacific humpbacked dolphin
+18/06/1741 Pygmy sperm whale
+22/12/1718 Pygmy right whale
+06/05/1739 Southern right whale
+23/10/17 9 Indo-Pacific humpbacked dolphin
+06/12/1729 Orca
+31/07/1719 Long-finned pilot whale
+13/03/1840 Humpback whale
+08/11/1726 Dwarf minke whale
+11/06/17 7 Dwarf sperm whale
+20/09/1740 Spinner dolphin
+09/08/1727 Fin whale
+01/04/1812 Humpback whale
+30/01/1838 Fin whale
+24/02/18 8 Dwarf sperm whale
+29/06/1723 Pygmy right whale
+31/03/1811 Common dolphin
+22/02/1835 Indo-Pacific humpbacked dolphin
+30/07/17 3 Indo-Pacific humpbacked dolphin
+09/03/18 9 Sei whale
+11/08/1739 Long-finned pilot whale
+26/01/1817 Blue whale
+19/07/1739 Spinner dolphin
+26/07/1719 Striped dolphin
+06/12/17 8 Common dolphin
+06/09/1731 Common dolphin
+03/03/18 8 Pygmy right whale
+14/08/1724 Pygmy right whale
+06/08/17 3 Spinner dolphin
+09/06/17 6 Spinner dolphin
+06/01/18 8 Humpback whale
+23/02/18 7 Pygmy right whale
+12/08/1725 Blue whale
+22/04/18 8 Pygmy sperm whale
+15/03/1831 Sei whale
+13/10/1725 Sei whale
+24/06/1712 Bryde's whale
+06/10/1739 Coastal bottlenose dolphin
+24/09/1733 Fin whale
+11/03/1832 Short-finned pilot whale
+20/07/17 4 Pygmy right whale
+04/05/1733 Indo-Pacific humpbacked dolphin
+18/06/17 8 Common dolphin
+23/01/1813 Fin whale
+10/03/1811 Southern right whale
+13/02/18 1 Dwarf minke whale
+21/01/1824 Fin whale
+29/11/17 8 Sei whale
+29/06/1737 Blue whale
+05/09/1734 Dwarf sperm whale
+13/08/1732 Pygmy right whale
+02/03/1831 Sei whale
+19/02/1831 Blue whale
+25/03/1835 Spinner dolphin
+14/11/17 9 Pygmy right whale
+17/03/1839 Sei whale
+15/08/1737 Indo-Pacific humpbacked dolphin
+25/10/1739 Pygmy sperm whale
+23/06/1737 Orca
+09/03/1824 Striped dolphin
+13/11/1733 Southern right whale
+09/11/1739 Spinner dolphin
+29/07/1722 Indo-Pacific humpbacked dolphin
+11/06/1715 Pygmy sperm whale
+05/02/1840 Spinner dolphin
+02/04/1818 Southern right whale
+25/01/1819 Short-finned pilot whale
+16/02/1834 Pygmy right whale
+25/07/1728 Long-finned pilot whale
+10/09/1735 Long-finned pilot whale
+02/04/18 8 Blue whale
+09/02/1811 Humpback whale
+13/04/1833 Humpback whale
+20/07/1718 Coastal bottlenose dolphin
+28/04/1840 Bryde's whale
+20/11/1733 Blue whale
+20/01/18 1 Humpback whale
+17/11/1731 Pygmy sperm whale
+04/05/1715 Common dolphin
+09/07/1738 Blue whale
+23/05/1717 Orca
+09/03/1840 Coastal bottlenose dolphin
+30/12/17 2 Coastal bottlenose dolphin
+06/01/1834 Pygmy sperm whale
+09/03/1819 Common dolphin
+12/12/1722 Coastal bottlenose dolphin
+25/07/1715 Striped dolphin
+28/09/17 8 Striped dolphin
+26/08/1720 Pygmy right whale
+09/02/1816 Orca
+17/12/1741 Fin whale
+28/11/1713 Humpback whale
+18/06/17 3 Humpback whale
+22/12/17 3 Sei whale
+12/11/1721 Dwarf sperm whale
+12/12/1736 Spinner dolphin
+28/05/1733 Southern right whale
+19/01/1826 Common dolphin
+15/11/1710 Dwarf minke whale
+19/11/1719 Orca
+06/10/17 5 Sei whale
+11/03/1826 Coastal bottlenose dolphin
+06/02/1828 Fin whale
+07/05/1715 Dwarf minke whale
+27/11/1712 Striped dolphin
+08/08/17 6 Striped dolphin
+07/08/1734 Pygmy sperm whale
+20/08/17 4 Striped dolphin
+17/06/1719 Striped dolphin
+31/05/1729 Southern right whale
+13/05/1726 Indo-Pacific humpbacked dolphin
+13/09/1715 Humpback whale
+31/01/1841 Bryde's whale
+10/12/1731 Dwarf minke whale
+02/03/1820 Long-finned pilot whale
+02/07/17 1 Indo-Pacific humpbacked dolphin
+01/07/1731 Long-finned pilot whale
+10/10/1740 Common dolphin
+19/08/1737 Pygmy sperm whale
+17/04/1830 Common dolphin
+11/08/1726 Pygmy sperm whale
+16/08/17 4 Blue whale
+13/08/1722 Bryde's whale
+16/01/1822 Dwarf sperm whale
+12/10/1737 Southern right whale
+12/03/1837 Bryde's whale
+04/07/17 1 Short-finned pilot whale
+16/11/1716 Striped dolphin
+20/08/1732 Blue whale
+29/12/1724 Dwarf sperm whale
+05/12/17 9 Indo-Pacific humpbacked dolphin
+20/09/17 8 Common dolphin
+09/02/1832 Orca
+03/01/1821 Fin whale
+22/02/1810 Spinner dolphin
+20/06/1722 Striped dolphin
+27/12/17 7 Orca
+31/01/1837 Bryde's whale
+19/10/17 8 Sei whale
+27/06/17 7 Sei whale
+31/03/18 9 Bryde's whale
+10/09/17 1 Dwarf sperm whale
+23/11/1735 Striped dolphin
+22/04/1818 Fin whale
+19/05/1728 Pygmy right whale
+12/04/18 3 Blue whale
+16/06/1717 Orca
+15/12/1711 Fin whale
+06/09/17 2 Dwarf minke whale
+16/01/1832 Orca
+14/01/1817 Indo-Pacific humpbacked dolphin
+18/07/1722 Humpback whale
+21/10/1731 Pygmy right whale
+24/12/1727 Short-finned pilot whale
+09/01/18 7 Striped dolphin
+30/09/1739 Pygmy right whale
+09/05/1723 Blue whale
+14/11/1728 Long-finned pilot whale
+21/08/1713 Striped dolphin
+28/08/1720 Dwarf sperm whale
+17/09/1715 Long-finned pilot whale
+21/09/1721 Dwarf minke whale
+07/07/1711 Blue whale
+22/01/18 6 Long-finned pilot whale
+16/03/1828 Dwarf minke whale
+26/02/18 9 Spinner dolphin
+27/02/1817 Dwarf minke whale
+19/01/1825 Sei whale
+02/03/1823 Pygmy sperm whale
+29/12/1734 Pygmy right whale
+20/03/1826 Long-finned pilot whale
+04/08/17 5 Spinner dolphin
+09/09/1731 Blue whale
+19/07/1720 Fin whale
+04/01/1812 Striped dolphin
+03/12/1736 Sei whale
+27/10/1731 Pygmy sperm whale
+03/06/1717 Blue whale
+10/01/1838 Blue whale
+18/11/1716 Fin whale
+15/12/17 5 Blue whale
+07/07/1711 Coastal bottlenose dolphin
+21/02/1824 Indo-Pacific humpbacked dolphin
+23/09/1732 Blue whale
+03/06/1711 Common dolphin
+14/09/1735 Orca
+12/01/1819 Sei whale
+21/03/18 5 Dwarf minke whale
+10/12/1741 Orca
+04/12/17 8 Humpback whale
+15/08/1726 Humpback whale
+04/08/1724 Pygmy sperm whale
+01/05/1728 Indo-Pacific humpbacked dolphin
+15/02/1834 Pygmy right whale
+12/07/1720 Indo-Pacific humpbacked dolphin
+12/11/17 9 Fin whale
+11/12/1727 Long-finned pilot whale
+27/06/1733 Southern right whale
+12/05/1728 Orca
+04/10/1721 Dwarf minke whale
+14/06/1734 Orca
+23/03/1810 Long-finned pilot whale
+23/01/1810 Blue whale
+17/12/17 1 Pygmy right whale
+07/08/1731 Common dolphin
+06/03/1830 Dwarf sperm whale
+12/08/1734 Spinner dolphin
+23/05/1738 Blue whale
+22/12/1741 Pygmy sperm whale
+18/11/17 9 Southern right whale
+19/10/1718 Southern right whale
+01/04/1811 Sei whale
+22/07/1726 Humpback whale
+22/08/1716 Short-finned pilot whale
+19/05/17 2 Humpback whale
+26/08/17 8 Pygmy sperm whale
+18/05/1725 Common dolphin
+04/01/1835 Striped dolphin
+25/01/1834 Southern right whale
+11/07/17 3 Blue whale
+29/05/17 3 Long-finned pilot whale
+11/10/1710 Humpback whale
+17/04/1828 Pygmy right whale
+12/12/1713 Coastal bottlenose dolphin
+12/02/1813 Coastal bottlenose dolphin
+24/01/1819 Southern right whale
+18/01/1825 Orca
+18/05/17 9 Pygmy right whale
+27/12/1734 Bryde's whale
+13/06/1728 Coastal bottlenose dolphin
+20/03/1812 Dwarf sperm whale
+17/04/18 7 Short-finned pilot whale
+30/01/18 3 Sei whale
+21/07/17 4 Striped dolphin
+07/02/1829 Bryde's whale
+07/07/1737 Dwarf sperm whale
+10/02/1815 Orca
+07/06/1729 Common dolphin
+26/12/17 3 Orca
+10/08/1728 Indo-Pacific humpbacked dolphin
+06/05/17 3 Orca
+18/05/1710 Long-finned pilot whale
+24/12/17 1 Bryde's whale
+08/01/1841 Southern right whale
+30/06/1732 Blue whale
+08/10/1714 Dwarf sperm whale
+08/04/1823 Orca
+02/12/1720 Humpback whale
+29/07/1720 Common dolphin
+15/08/1712 Coastal bottlenose dolphin
+09/02/1830 Bryde's whale
+21/11/17 7 Coastal bottlenose dolphin
+31/03/1811 Dwarf sperm whale
+24/11/17 2 Coastal bottlenose dolphin
+13/08/1720 Pygmy sperm whale
+29/01/1820 Common dolphin
+04/03/1837 Dwarf sperm whale
+06/11/17 3 Humpback whale
+09/07/17 1 Spinner dolphin
+22/12/1710 Humpback whale
+02/12/1718 Dwarf sperm whale
+19/08/1741 Spinner dolphin
+07/01/1832 Spinner dolphin
+22/02/1829 Blue whale
+12/08/1724 Spinner dolphin
+07/06/1724 Long-finned pilot whale
+18/09/1711 Blue whale
+16/08/1714 Humpback whale
+03/06/1738 Common dolphin
+22/06/1735 Orca
+21/12/1717 Striped dolphin
+23/08/1713 Indo-Pacific humpbacked dolphin
+26/05/1717 Humpback whale
+02/07/1718 Indo-Pacific humpbacked dolphin
+17/07/1734 Coastal bottlenose dolphin
+08/01/18 7 Fin whale
+26/07/1721 Common dolphin
+03/02/1812 Common dolphin
+03/07/17 5 Indo-Pacific humpbacked dolphin
+05/08/17 3 Indo-Pacific humpbacked dolphin
+07/12/17 1 Dwarf sperm whale
+27/09/1740 Coastal bottlenose dolphin
+15/09/1713 Sei whale
+17/12/1718 Dwarf minke whale
+12/02/1813 Blue whale
+05/12/17 7 Short-finned pilot whale
+16/11/17 4 Southern right whale
+17/11/1727 Bryde's whale
+11/04/1834 Short-finned pilot whale
+14/09/1712 Spinner dolphin
+08/06/1735 Pygmy sperm whale
+18/02/1841 Short-finned pilot whale
+05/08/17 1 Spinner dolphin
+12/10/1728 Coastal bottlenose dolphin
+13/02/1816 Long-finned pilot whale
+12/04/1839 Fin whale
+06/11/17 7 Orca
+02/10/1728 Orca
+23/11/1728 Pygmy right whale
+15/07/17 9 Striped dolphin
+16/01/18 1 Fin whale
+17/01/18 7 Bryde's whale
+13/02/1833 Dwarf sperm whale
+19/01/18 9 Short-finned pilot whale
+20/11/1714 Spinner dolphin
+29/05/1721 Blue whale
+26/03/1826 Humpback whale
+25/02/18 5 Humpback whale
+06/03/1823 Humpback whale
+10/05/1734 Blue whale
+25/12/17 8 Pygmy sperm whale
+09/12/1731 Long-finned pilot whale
+20/01/1822 Sei whale
+22/09/1713 Pygmy sperm whale
+24/11/17 4 Fin whale
+14/05/1741 Humpback whale
+19/03/18 3 Short-finned pilot whale
+31/08/1740 Humpback whale
+21/12/17 2 Southern right whale
+30/01/18 9 Bryde's whale
+25/02/1814 Humpback whale
+20/07/1725 Common dolphin
+19/01/18 5 Coastal bottlenose dolphin
+12/03/18 1 Sei whale
+03/10/1724 Fin whale
+16/09/1717 Coastal bottlenose dolphin
+04/09/17 8 Fin whale
+07/10/1722 Striped dolphin
+25/09/1725 Short-finned pilot whale
+15/06/1716 Orca
+12/01/18 2 Common dolphin
+02/05/1719 Humpback whale
+23/10/1726 Coastal bottlenose dolphin
+02/01/18 2 Short-finned pilot whale
+16/10/1729 Southern right whale
+14/02/1811 Long-finned pilot whale
+04/05/1721 Dwarf minke whale
+03/04/1810 Spinner dolphin
+23/12/1716 Common dolphin
+28/07/17 1 Coastal bottlenose dolphin
+15/10/17 9 Southern right whale
+21/07/1717 Fin whale
+09/09/1733 Fin whale
+06/04/1841 Pygmy sperm whale
+29/01/1825 Short-finned pilot whale
+19/09/1735 Pygmy right whale
+05/05/1719 Southern right whale
+15/08/17 9 Short-finned pilot whale
+14/03/1832 Dwarf minke whale
+08/05/17 2 Spinner dolphin
+22/10/1732 Pygmy sperm whale
+02/02/1823 Bryde's whale
+07/03/1824 Coastal bottlenose dolphin
+31/05/1716 Sei whale
+19/03/1820 Orca
+04/05/1739 Bryde's whale
+10/11/17 3 Striped dolphin
+25/09/1710 Humpback whale
+15/02/1836 Spinner dolphin
+24/05/1738 Dwarf sperm whale
+29/03/18 8 Blue whale
+14/03/1810 Common dolphin
+13/09/17 1 Dwarf sperm whale
+26/05/1710 Dwarf sperm whale
+14/02/1839 Sei whale
+18/01/1827 Orca
+17/01/1817 Pygmy sperm whale
+12/05/1715 Pygmy sperm whale
+09/12/1732 Bryde's whale
+04/07/1717 Pygmy sperm whale
+15/02/1829 Coastal bottlenose dolphin
+01/08/1713 Southern right whale
+03/12/1726 Indo-Pacific humpbacked dolphin
+19/11/1713 Humpback whale
+19/10/1714 Long-finned pilot whale
+18/03/1840 Southern right whale
+09/11/1736 Short-finned pilot whale
+20/06/1727 Orca
+03/07/17 4 Pygmy right whale
+05/01/1811 Common dolphin
+03/06/1722 Dwarf minke whale
+16/06/1713 Blue whale
+11/12/1726 Southern right whale
+25/03/18 7 Pygmy right whale
+30/11/1711 Coastal bottlenose dolphin
+06/08/1725 Dwarf minke whale
+30/08/1715 Humpback whale
+01/10/1729 Dwarf minke whale
+24/05/17 7 Common dolphin
+21/01/1836 Fin whale
+20/10/1722 Dwarf minke whale
+19/08/1718 Striped dolphin
+15/11/1739 Long-finned pilot whale
+08/03/1833 Pygmy sperm whale
+18/08/1711 Dwarf sperm whale
+14/01/18 9 Indo-Pacific humpbacked dolphin
+12/11/17 9 Pygmy sperm whale
+13/01/1831 Orca
+09/09/1713 Southern right whale
+05/04/1832 Dwarf sperm whale
+06/03/1831 Common dolphin
+05/07/1741 Common dolphin
+17/04/1814 Common dolphin
+22/07/17 1 Short-finned pilot whale
+05/06/17 7 Long-finned pilot whale
+15/07/1741 Sei whale
+31/10/1711 Southern right whale
+01/08/17 1 Dwarf sperm whale
+10/07/1719 Coastal bottlenose dolphin
+24/10/17 1 Short-finned pilot whale
+09/09/1718 Short-finned pilot whale
+03/05/1714 Dwarf sperm whale
+28/08/1714 Dwarf minke whale
+29/10/1736 Common dolphin
+29/12/1712 Striped dolphin
+21/10/1728 Orca
+13/05/17 9 Bryde's whale
+15/03/18 8 Fin whale
+04/09/1711 Coastal bottlenose dolphin
+29/11/1736 Striped dolphin
+30/01/1836 Short-finned pilot whale
+31/03/1835 Pygmy right whale
+26/12/1741 Short-finned pilot whale
+14/03/1829 Fin whale
+14/07/1726 Sei whale
+01/06/1716 Long-finned pilot whale
+08/05/17 3 Dwarf minke whale
+13/01/1823 Pygmy right whale
+20/04/1841 Blue whale
+01/11/1732 Short-finned pilot whale
+09/03/1827 Pygmy sperm whale
+16/10/17 7 Long-finned pilot whale
+26/08/1739 Dwarf minke whale
+29/05/17 4 Fin whale
+02/06/1716 Sei whale
+18/03/1814 Orca
+29/06/1725 Blue whale
+05/01/1833 Short-finned pilot whale
+01/11/1734 Pygmy right whale
+24/12/1719 Sei whale
+13/04/1831 Common dolphin
+26/12/1733 Blue whale
+20/07/1737 Pygmy right whale
+16/02/1832 Sei whale
+21/01/1816 Striped dolphin
+11/12/1739 Pygmy sperm whale
+21/01/18 4 Bryde's whale
+11/09/1731 Dwarf minke whale
+31/03/18 3 Common dolphin
+14/09/1717 Sei whale
+25/08/1733 Short-finned pilot whale
+08/02/1840 Striped dolphin
+19/12/1739 Striped dolphin
+09/10/1739 Fin whale
+06/04/1833 Coastal bottlenose dolphin
+06/08/1722 Long-finned pilot whale
+09/12/17 5 Dwarf minke whale
+08/11/1711 Bryde's whale
+24/01/1840 Striped dolphin
+02/12/1724 Coastal bottlenose dolphin
+27/06/1730 Striped dolphin
+14/11/1741 Bryde's whale
+08/10/1719 Fin whale
+23/06/17 7 Common dolphin
+08/08/1718 Coastal bottlenose dolphin
+28/03/1839 Coastal bottlenose dolphin
+18/03/1816 Sei whale
+25/03/1820 Common dolphin
+03/04/1838 Humpback whale
+15/09/1720 Southern right whale
+30/01/1821 Common dolphin
+30/12/17 2 Orca
+15/02/1816 Spinner dolphin
+19/05/1740 Spinner dolphin
+01/10/1727 Pygmy right whale
+02/05/17 6 Short-finned pilot whale
+20/10/1729 Dwarf minke whale
+03/02/18 6 Spinner dolphin
+06/07/17 5 Short-finned pilot whale
+02/03/1837 Short-finned pilot whale
+01/04/18 4 Sei whale
+06/09/17 1 Orca
+03/07/1710 Fin whale
+20/04/1822 Common dolphin
+19/01/1830 Southern right whale
+19/11/1726 Indo-Pacific humpbacked dolphin
+04/11/1741 Long-finned pilot whale
+04/05/1730 Orca
+11/11/1732 Orca
+14/10/1738 Common dolphin
+04/07/17 3 Fin whale
+23/11/1739 Orca
+27/11/1741 Blue whale
+06/11/1716 Sei whale
+06/03/18 2 Pygmy right whale
+01/03/1835 Long-finned pilot whale
+28/07/1727 Sei whale
+16/09/17 6 Striped dolphin
+09/09/1741 Southern right whale
+28/08/1741 Coastal bottlenose dolphin
+08/05/1723 Spinner dolphin
+14/12/1724 Pygmy right whale
+28/04/1816 Coastal bottlenose dolphin
+14/05/1740 Dwarf sperm whale
+14/06/1740 Humpback whale
+27/08/1716 Striped dolphin
+30/11/1732 Spinner dolphin
+04/02/18 8 Common dolphin
+07/05/1712 Sei whale
+20/01/1830 Pygmy right whale
+09/10/1729 Dwarf sperm whale
+30/05/1736 Pygmy right whale
+24/09/1738 Dwarf sperm whale
+14/07/17 8 Fin whale
+12/10/1736 Coastal bottlenose dolphin
+04/09/1716 Spinner dolphin
+23/01/1820 Common dolphin
+13/07/1738 Humpback whale
+10/11/1741 Pygmy sperm whale
+09/04/1824 Blue whale
+15/12/1740 Bryde's whale
+18/04/1831 Short-finned pilot whale
+04/10/1711 Humpback whale
+28/06/1740 Pygmy sperm whale
+08/12/1729 Dwarf sperm whale
+23/12/1732 Orca
+08/12/1728 Dwarf minke whale
+19/03/18 8 Sei whale
+04/05/1733 Pygmy right whale
+06/03/18 5 Humpback whale
+22/06/1734 Bryde's whale
+12/07/17 1 Dwarf sperm whale
+27/01/1816 Pygmy sperm whale
+17/12/1726 Striped dolphin
+29/06/1727 Humpback whale
+17/01/1826 Fin whale
+10/08/1720 Long-finned pilot whale
+29/07/17 5 Southern right whale
+28/06/1727 Long-finned pilot whale
+13/12/1732 Short-finned pilot whale
+23/09/1720 Pygmy right whale
+04/08/1734 Short-finned pilot whale
+08/02/18 9 Coastal bottlenose dolphin
+25/11/1740 Dwarf minke whale
+19/04/1812 Striped dolphin
+10/04/1811 Pygmy right whale
+27/10/1728 Short-finned pilot whale
+20/11/1720 Spinner dolphin
+03/01/1841 Indo-Pacific humpbacked dolphin
+03/01/18 1 Dwarf minke whale
+19/12/1730 Striped dolphin
+24/09/17 1 Southern right whale
+13/06/1724 Dwarf sperm whale
+04/11/1736 Dwarf sperm whale
+17/06/17 1 Sei whale
+03/03/1832 Long-finned pilot whale
+15/01/1835 Striped dolphin
+29/11/1728 Common dolphin
+23/02/18 6 Short-finned pilot whale
+19/12/1739 Striped dolphin
+10/09/1726 Sei whale
+14/05/17 8 Striped dolphin
+15/09/1730 Coastal bottlenose dolphin
+22/04/1813 Spinner dolphin
+22/09/1727 Striped dolphin
+03/04/1840 Striped dolphin
+01/11/17 1 Short-finned pilot whale
+09/11/1726 Short-finned pilot whale
+28/04/1837 Southern right whale
+05/05/1735 Orca
+08/10/1725 Pygmy sperm whale
+27/10/1725 Fin whale
+02/04/18 5 Sei whale
+10/11/1731 Spinner dolphin
+22/01/1820 Spinner dolphin
+09/02/1835 Coastal bottlenose dolphin
+04/04/1811 Striped dolphin
+13/08/1728 Striped dolphin
+15/02/1819 Bryde's whale
+17/03/1818 Short-finned pilot whale
+19/01/1832 Pygmy right whale
+15/05/1734 Dwarf sperm whale
+25/03/1833 Southern right whale
+12/12/17 7 Long-finned pilot whale
+16/12/1728 Blue whale
+01/07/1728 Spinner dolphin
+01/03/1839 Fin whale
+22/04/1831 Bryde's whale
+13/02/18 8 Common dolphin
+17/07/1722 Dwarf sperm whale
+06/04/1823 Sei whale
+17/08/1728 Spinner dolphin
+22/10/1741 Dwarf minke whale
+28/05/1719 Humpback whale
+03/02/1836 Coastal bottlenose dolphin
+28/04/1815 Fin whale
+17/06/17 1 Indo-Pacific humpbacked dolphin
+29/04/1718 Pygmy sperm whale
+20/06/1741 Coastal bottlenose dolphin
+07/07/1712 Dwarf sperm whale
+30/08/17 8 Pygmy right whale
+30/03/1819 Short-finned pilot whale
+13/08/1732 Bryde's whale
+22/12/1740 Southern right whale
+10/10/1718 Fin whale
+21/03/18 2 Short-finned pilot whale
+23/11/1730 Humpback whale
+21/09/1714 Long-finned pilot whale
+19/03/1822 Indo-Pacific humpbacked dolphin
+31/03/1820 Long-finned pilot whale
+08/03/1810 Humpback whale
+14/12/1739 Indo-Pacific humpbacked dolphin
+30/12/1729 Striped dolphin
+18/03/1815 Short-finned pilot whale
+12/01/1811 Pygmy sperm whale
+12/01/18 6 Common dolphin
+28/01/18 6 Coastal bottlenose dolphin
+31/05/1720 Long-finned pilot whale
+13/10/17 3 Sei whale
+28/03/1841 Indo-Pacific humpbacked dolphin
+22/01/1827 Southern right whale
+10/12/1717 Coastal bottlenose dolphin
+19/04/1834 Orca
+08/02/1832 Spinner dolphin
+18/08/1722 Fin whale
+24/10/1713 Coastal bottlenose dolphin
+26/06/1740 Common dolphin
+01/02/1814 Indo-Pacific humpbacked dolphin
+05/02/1823 Southern right whale
+03/01/18 6 Coastal bottlenose dolphin
+19/05/1723 Pygmy sperm whale
+13/07/17 9 Long-finned pilot whale
+17/09/17 8 Blue whale
+26/06/1728 Southern right whale
+28/02/1833 Southern right whale
+08/02/1821 Short-finned pilot whale
+06/07/17 8 Striped dolphin
+15/01/1819 Dwarf minke whale
+20/08/1719 Orca
+19/08/17 1 Pygmy sperm whale
+20/09/1724 Long-finned pilot whale
+20/10/1719 Striped dolphin
+20/07/1715 Dwarf sperm whale
+12/06/1733 Spinner dolphin
+07/08/1735 Short-finned pilot whale
+04/04/18 9 Fin whale
+18/04/1834 Dwarf minke whale
+08/09/1729 Pygmy sperm whale
+11/01/18 3 Fin whale
+17/11/1724 Southern right whale
+22/11/17 8 Pygmy right whale
+02/07/1729 Dwarf sperm whale
+23/05/1710 Coastal bottlenose dolphin
+29/10/1713 Dwarf minke whale
+27/05/1710 Orca
+08/05/1735 Indo-Pacific humpbacked dolphin
+06/11/1738 Dwarf sperm whale
+07/03/1810 Orca
+02/09/1710 Pygmy sperm whale
+08/08/1717 Pygmy right whale
+27/02/18 1 Fin whale
+17/07/17 3 Bryde's whale
+17/04/18 7 Short-finned pilot whale
+17/01/1824 Dwarf minke whale
+26/06/17 3 Pygmy right whale
+10/12/17 1 Short-finned pilot whale
+09/12/17 9 Long-finned pilot whale
+18/04/18 1 Pygmy sperm whale
+14/09/1721 Indo-Pacific humpbacked dolphin
+19/12/17 8 Coastal bottlenose dolphin
+25/10/1736 Dwarf sperm whale
+05/12/1728 Pygmy right whale
+29/05/1732 Sei whale
+26/11/17 2 Striped dolphin
+23/04/1832 Short-finned pilot whale
+24/04/1825 Striped dolphin
+12/09/1738 Common dolphin
+12/06/17 9 Pygmy sperm whale
+23/02/1814 Bryde's whale
+27/10/1738 Striped dolphin
+09/05/1715 Southern right whale
+07/08/1739 Pygmy right whale
+20/01/1832 Coastal bottlenose dolphin
+11/04/1831 Short-finned pilot whale
+19/12/1739 Bryde's whale
+28/05/1711 Pygmy right whale
+28/08/1740 Pygmy right whale
+04/03/18 8 Indo-Pacific humpbacked dolphin
+31/05/1739 Humpback whale
+18/05/1716 Bryde's whale
+10/06/1739 Blue whale
+15/01/1828 Spinner dolphin
+10/06/17 3 Indo-Pacific humpbacked dolphin
+15/03/1815 Fin whale
+04/11/1715 Dwarf minke whale
+15/11/17 1 Sei whale
+24/02/18 6 Short-finned pilot whale
+10/10/1739 Pygmy sperm whale
+27/09/1714 Coastal bottlenose dolphin
+25/04/1819 Short-finned pilot whale
+09/11/17 4 Blue whale
+10/05/1731 Humpback whale
+19/03/1835 Sei whale
+11/08/1719 Dwarf minke whale
+09/11/1729 Blue whale
+23/01/18 8 Sei whale
+20/02/1819 Short-finned pilot whale
+05/06/1719 Dwarf sperm whale
+25/04/1811 Pygmy sperm whale
+19/03/18 5 Long-finned pilot whale
+09/04/1813 Fin whale
+01/12/1726 Striped dolphin
+17/10/1723 Dwarf sperm whale
+08/05/1721 Pygmy right whale
+23/05/1726 Fin whale
+29/10/17 6 Dwarf minke whale
+23/04/1829 Pygmy right whale
+09/07/1734 Pygmy sperm whale
+29/10/1713 Bryde's whale
+12/10/17 5 Long-finned pilot whale
+03/05/1718 Fin whale
+11/06/1728 Fin whale
+04/10/1716 Dwarf sperm whale
+04/09/1729 Dwarf minke whale
+25/12/1728 Short-finned pilot whale
+24/12/17 4 Bryde's whale
+26/05/1721 Common dolphin
+10/01/18 6 Striped dolphin
+06/03/1815 Fin whale
+14/11/1730 Blue whale
+22/08/1716 Short-finned pilot whale
+26/12/1732 Pygmy sperm whale
+22/05/1740 Long-finned pilot whale
+23/03/1828 Coastal bottlenose dolphin
+14/11/17 3 Pygmy sperm whale
+04/01/18 6 Sei whale
+02/09/1737 Orca
+09/05/1711 Striped dolphin
+20/11/1719 Orca
+08/08/1727 Dwarf sperm whale
+10/12/1732 Bryde's whale
+08/11/1711 Dwarf minke whale
+16/03/1826 Fin whale
+10/07/1721 Common dolphin
+10/01/1820 Southern right whale
+07/12/1729 Common dolphin
+20/03/18 7 Spinner dolphin
+15/11/1711 Humpback whale
+28/04/1815 Humpback whale
+17/10/1718 Bryde's whale
+29/08/17 6 Dwarf sperm whale
+16/02/1829 Fin whale
+12/04/1811 Spinner dolphin
+25/01/1822 Common dolphin
+22/06/1729 Bryde's whale
+18/10/1711 Spinner dolphin
+18/09/17 1 Bryde's whale
+18/06/1724 Southern right whale
+01/03/1824 Humpback whale
+18/04/1827 Southern right whale
+04/03/18 8 Southern right whale
+09/02/1820 Pygmy right whale
+25/12/1722 Southern right whale
+03/12/1718 Bryde's whale
+16/08/17 4 Sei whale
+03/08/1716 Sei whale
+26/10/1739 Long-finned pilot whale
+19/08/1730 Orca
+21/08/1732 Spinner dolphin
+07/01/1836 Pygmy right whale
+06/05/1715 Southern right whale
+11/03/1822 Southern right whale
+23/05/1725 Short-finned pilot whale
+24/04/1821 Pygmy sperm whale
+12/04/1833 Blue whale
+07/05/1711 Fin whale
+04/08/1722 Southern right whale
+30/10/17 3 Common dolphin
+22/02/1818 Sei whale
+07/01/1823 Humpback whale
+07/01/1819 Pygmy right whale
+21/08/1733 Striped dolphin
+22/02/1830 Short-finned pilot whale
+23/08/1712 Fin whale
+20/02/1827 Common dolphin
+08/03/18 4 Indo-Pacific humpbacked dolphin
+29/11/1722 Common dolphin
+23/03/1825 Pygmy right whale
+12/10/1724 Dwarf minke whale
+25/02/18 4 Long-finned pilot whale
+18/10/1738 Long-finned pilot whale
+28/10/1711 Short-finned pilot whale
+24/09/1733 Blue whale
+03/10/1724 Orca
+01/09/1720 Striped dolphin
+23/01/18 7 Blue whale
+15/05/1718 Pygmy right whale
+31/03/18 8 Dwarf sperm whale
+19/02/1810 Common dolphin
+15/04/1811 Humpback whale
+31/10/1729 Orca
+29/01/1824 Dwarf sperm whale
+15/07/1732 Striped dolphin
+25/09/1723 Indo-Pacific humpbacked dolphin
+20/06/1728 Dwarf sperm whale
+11/04/1840 Dwarf minke whale
+08/07/1737 Humpback whale
+07/08/1721 Pygmy sperm whale
+28/12/17 7 Sei whale
+18/06/1730 Southern right whale
+16/02/1825 Dwarf minke whale
+19/03/1822 Short-finned pilot whale
+23/07/1728 Sei whale
+21/09/1720 Indo-Pacific humpbacked dolphin
+25/10/1713 Fin whale
+22/03/1810 Bryde's whale
+22/10/1728 Short-finned pilot whale
+23/04/1830 Short-finned pilot whale
+11/12/1716 Humpback whale
+09/01/1832 Long-finned pilot whale
+27/11/1730 Short-finned pilot whale
+04/04/18 7 Striped dolphin
+14/06/1726 Striped dolphin
+13/05/1735 Dwarf sperm whale
+20/11/1717 Spinner dolphin
+20/03/1828 Orca
+10/11/17 3 Short-finned pilot whale
+12/09/1730 Blue whale
+01/02/1841 Dwarf sperm whale
+15/10/17 3 Spinner dolphin
+25/09/1710 Fin whale
+21/08/17 5 Blue whale
+27/12/1730 Striped dolphin
+05/05/1734 Spinner dolphin
+16/06/1719 Common dolphin
+20/11/17 4 Pygmy right whale
+29/03/1820 Pygmy sperm whale
+15/02/1832 Spinner dolphin
+05/08/17 6 Humpback whale
+14/10/1712 Dwarf sperm whale
+30/12/1725 Pygmy right whale
+11/11/1721 Southern right whale
+11/05/1734 Blue whale
+10/02/1834 Striped dolphin
+02/01/18 5 Spinner dolphin
+07/05/1735 Fin whale
+01/10/1715 Pygmy sperm whale
+30/06/1723 Fin whale
+21/01/1833 Orca
+14/04/1819 Sei whale
+02/01/1833 Short-finned pilot whale
+22/09/17 4 Sei whale
+27/12/17 9 Striped dolphin
+01/06/1724 Blue whale
+12/05/1736 Dwarf minke whale
+15/06/1731 Blue whale
+03/01/1827 Coastal bottlenose dolphin
+08/06/1717 Striped dolphin
+04/12/1733 Indo-Pacific humpbacked dolphin
+01/04/1826 Striped dolphin
+04/02/1834 Pygmy sperm whale
+21/10/17 2 Pygmy right whale
+04/08/1724 Bryde's whale
+23/05/1731 Orca
+01/01/1835 Indo-Pacific humpbacked dolphin
+16/04/1828 Dwarf minke whale
+16/04/18 5 Long-finned pilot whale
+03/02/18 6 Bryde's whale
+06/02/18 1 Short-finned pilot whale
+02/10/1733 Dwarf minke whale
+13/07/1715 Striped dolphin
+04/05/17 2 Fin whale
+01/05/1733 Short-finned pilot whale
+13/05/1729 Humpback whale
+25/06/1719 Bryde's whale
+09/01/1824 Humpback whale
+25/07/1733 Common dolphin
+21/04/1811 Southern right whale
+11/05/1710 Common dolphin
+06/06/1717 Dwarf sperm whale
+03/04/1840 Pygmy sperm whale
+20/10/1721 Pygmy right whale
+13/10/1741 Sei whale
+16/02/1818 Short-finned pilot whale
+15/03/1826 Pygmy sperm whale
+25/05/1715 Humpback whale
+02/10/1728 Coastal bottlenose dolphin
+13/07/1717 Southern right whale
+17/01/18 3 Indo-Pacific humpbacked dolphin
+06/10/1741 Spinner dolphin
+08/08/1716 Fin whale
+06/12/1741 Sei whale
+05/06/1720 Long-finned pilot whale
+15/05/1731 Coastal bottlenose dolphin
+01/06/1732 Orca
+11/01/1823 Fin whale
+13/05/17 2 Common dolphin
+14/05/1720 Spinner dolphin
+12/08/1726 Fin whale
+30/10/1724 Bryde's whale
+20/10/1730 Common dolphin
+08/11/1732 Orca
+17/05/1736 Coastal bottlenose dolphin
+21/06/1731 Fin whale
+18/08/1716 Dwarf sperm whale
+14/07/1712 Bryde's whale
+01/08/1734 Indo-Pacific humpbacked dolphin
+19/04/1813 Humpback whale
+12/08/1728 Pygmy right whale
+19/07/1737 Bryde's whale
+11/10/17 1 Orca
+25/11/1718 Common dolphin
+15/12/1715 Common dolphin
+29/10/1730 Striped dolphin
+05/11/1741 Striped dolphin
+16/09/1727 Long-finned pilot whale
+18/03/1840 Pygmy sperm whale
+11/02/1832 Short-finned pilot whale
+03/09/1739 Orca
+16/11/1722 Fin whale
+25/05/17 2 Pygmy right whale
+21/06/1731 Pygmy sperm whale
+24/05/1724 Short-finned pilot whale
+08/06/1721 Long-finned pilot whale
+11/03/18 9 Southern right whale
+17/11/1720 Short-finned pilot whale
+04/08/17 2 Fin whale
+20/09/1715 Sei whale
+02/08/17 1 Orca
+07/06/17 2 Coastal bottlenose dolphin
+05/12/1738 Spinner dolphin
+26/06/1734 Fin whale
+30/08/1739 Coastal bottlenose dolphin
+07/11/1714 Indo-Pacific humpbacked dolphin
+13/07/1711 Bryde's whale
+23/05/17 8 Dwarf sperm whale
+31/10/1715 Fin whale
+02/11/1741 Dwarf minke whale
+28/02/18 3 Short-finned pilot whale
+09/09/1738 Humpback whale
+01/06/1717 Bryde's whale
+02/09/17 1 Sei whale
+28/11/1716 Common dolphin
+23/07/17 8 Indo-Pacific humpbacked dolphin
+01/04/1815 Blue whale
+02/09/1718 Fin whale
+12/08/1724 Striped dolphin
+13/01/18 9 Short-finned pilot whale
+11/06/1726 Bryde's whale
+03/02/18 7 Sei whale
+10/01/18 6 Long-finned pilot whale
+21/02/1815 Common dolphin
+30/03/1817 Fin whale
+09/01/1841 Dwarf sperm whale
+31/05/1733 Blue whale
+18/10/1732 Pygmy right whale
+22/08/17 4 Pygmy sperm whale
+09/02/1840 Southern right whale
+28/12/17 3 Sei whale
+18/05/1738 Dwarf sperm whale
+27/07/1731 Indo-Pacific humpbacked dolphin
+03/01/1825 Dwarf sperm whale
+26/07/1710 Short-finned pilot whale
