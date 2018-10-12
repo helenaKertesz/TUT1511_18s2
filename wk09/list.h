@@ -16,6 +16,9 @@ struct node {
     struct node* next;
 };
 
+
+struct node* remove_head( struct node* l);
+
 struct node *makeNode(int value);
 
 struct node *list_append(struct node *list1, 

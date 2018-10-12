@@ -3,6 +3,15 @@
 #include "list.h"
 
 
+struct node* remove_head( struct node* l){
+    return NULL;
+}
+
+struct node* push_node( struct node* l, struct node* newNode){
+    return NULL;
+}
+
+
 // Append one linked list onto the end of another
 struct node *list_append(struct node *list1, 
                          struct node *list2){
@@ -17,20 +26,6 @@ struct node *list_append(struct node *list1,
     
     return list1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // given an array of strings,
 //create a linked list containing ints
@@ -65,71 +60,9 @@ struct node *strings_to_list(int len,
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// creates a single node with a certain value
-struct node* makeNode(int value){
-    return NULL;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void freeList( struct node* l ){
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 struct node *array_to_list( int size, int a[size] ){
     struct node* curr = NULL;
