@@ -3,10 +3,57 @@
 #include "list.h"
 
 
-struct node* remove_head( struct node* l){
+// "zip" two lists together 
+struct node* zip_lists( struct node* l1, struct node* l2 ){
+
+    struct node* curr1 = l1;
+    struct node* curr2 = l2;
+    struct node* temp1;
+    struct node* temp2;
+    
+    while( curr1 != NULL && curr2 != NULL ){
+    
+        temp1 = curr1->next;
+        temp2 = curr2->next;
+        
+        curr1->next = curr2;
+        
+        if( temp1 != NULL ){
+            curr2->next = temp1;
+        }
+        
+        curr1 = temp1;
+        curr2 = temp2;
+    }
+    if ( l1 == NULL ){
+        l1 = l2;
+    }
+
+    return l1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Remove the first element of a linked list, but keep track of the removed node
+struct node* remove_head( struct node* l, struct node ** removed_node){
     return NULL;
 }
 
+
+// Given a node, add it to the start of the linked list
 struct node* push_node( struct node* l, struct node* newNode){
     return NULL;
 }
@@ -61,6 +108,12 @@ struct node *strings_to_list(int len,
 
 
 void freeList( struct node* l ){
+    // base case
+    if( l == NULL ){
+        return;
+    }
+    freeList(l->next);
+    free(l);
     
 }
 
@@ -74,10 +127,12 @@ struct node *array_to_list( int size, int a[size] ){
             curr = malloc(sizeof(struct node));
             head = curr;
             curr->value = a[i];
+            curr->next = NULL;
         } else {
             curr->next = malloc(sizeof(struct node));
             curr = curr->next;
             curr->value = a[i];
+            curr->next = NULL;
         }
     }
     return head;
