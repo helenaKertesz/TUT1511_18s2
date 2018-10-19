@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "list.h"
-
+ 
 
 // "zip" two lists together 
 struct node* zip_lists( struct node* l1, struct node* l2 ){
